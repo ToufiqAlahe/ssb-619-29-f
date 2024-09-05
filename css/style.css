@@ -1,0 +1,247 @@
+/*font links*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*common start*/
+:root{
+	--mont:  "Montserrat Alternates", sans-serif;
+
+
+	--gray: #666666;
+	--black: #333333;
+	--blue: #054C73;
+}
+body{
+	font-family: var(--mont);
+	font-size: 16px;
+	font-weight: 400;
+	color:var(--black);
+}
+
+/*common end*/
+
+/*header start*/
+header {
+    padding: 25px 0 35px;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	margin: 10px 22px 0;
+	font-family: var(--mont);
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+}
+.menu ul li a:hover{
+	color: var(--gray);
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/bcg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner_item{
+	margin: 100px 0;
+	background-image: url(../images/bcg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+	border-radius: 10px;	
+}
+.banner_item h6{
+	font-weight: 600;
+	font-size: 16px;
+	color: var(--black);
+	padding-left: 25px;
+	text-transform: uppercase;
+}
+.banner_item h1{
+	font-size: 52px;
+	font-weight: 700;
+	color: var(--blue);
+    padding: 16px 140px 16px 25px;
+}
+.banner_item p{
+	font-size: 18px;
+	font-weight: 500;
+	padding-left: 25px;
+
+}
+.a_btn {
+    margin-left: 25px;
+    font-weight: 700;
+    background-color: var(--blue);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+.a_btn:hover{
+	color: var(--gray);
+}
+/*banner end*/
+
+/*hero start*/
+.hero {
+    background-color: #F2F5FF;
+    padding: 45px 0;
+    transition: box-shadow 0.3s ease;
+}
+.hero:hover {
+    box-shadow: 0 0 10px 0 #000000;
+}
+.hero_single{}
+.hero_img{}
+.hero_text{}
+.hero_text h2{
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--black);
+}
+.hero_text p{}
+/*hero end*/
+
+/*ins start*/
+.ins{
+	padding: 60px 0;
+}
+.c_title{}
+.c_title h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: var(--black);
+}
+.c_title p {
+    padding: 20px 0 50px;
+}
+.ins_img{}
+.ins_img img{}
+/*ins end*/
+
+/*beauty start*/
+.beauty{
+	padding: 60px 0;
+	background-color: #F2F5FF;
+}
+
+.beauty_text {
+    padding: 220px 0 0;
+}
+.beauty_text h1{}
+.beauty_text p{
+	padding: 20px 292px 30px 0;
+    line-height: 39px;
+}
+.beauty_btn{
+	margin-left: 0;
+}
+.banner_img{}
+.banner_img img{}
+/*beauty end*/
+
+/*browser start*/
+.browser{
+	padding: 60px 0;
+}
+.bro_text{}
+.bro_text h1{}
+.bro_text p{}
+
+.bro_single{}
+.bro_img{}
+.banner_img img{}
+.bro_single h2{
+	padding-top: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	}
+/*browser end*/
+
+/*how start*/
+.how{
+	padding: 60px 0 150px;
+}
+.how_text{}
+.how_text h1{}
+.how_text p{}
+
+.how_single{}
+.how_img{}
+.banner_img img{}
+.how_single h2{
+	padding: 20px 0 10px;
+	font-size: 24px;
+	font-weight: 700;
+	}
+.how_single p{
+	line-height: 28px;
+}
+/*how end*/
+
+/*join start*/
+.join{
+	padding: 60px 0;
+	background-color: #F2F5FF;
+}
+.join_text{}
+.join_text h1{}
+.join_text p{
+	padding: 10px 30px 50px;
+}
+
+.j_form{}
+#mail_name {
+    padding: 10px 15px;
+    border: 1px solid var(--black);
+    border-radius: 0;
+}
+.join_btn {
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFFFFF;
+	background-color: #011C42;
+    padding: 10px 15px;
+    border: 1px solid var(--black);
+    border-radius: 0;
+}
+/*join end*/
+
+/*footer atart*/
+footer{
+	padding: 30px 0 90px;
+	background-color: #03344F;
+}
+.ft_1{
+	padding-top: 20px;
+}
+.ft_1 h2{
+	color: #ffffff;
+}
+.ft_1 p{
+	padding: 30px 0 20px;
+	color: #FFFFFF;
+}
+.ft_link{
+	font-size: 24px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.ft_2{
+	padding-top: 30px;
+}
+.ft_2 h2{
+	padding-bottom: 25px;
+	color:  #FFFFFF;
+}
+.ft_img{}
+.ft_img img{}
+/*footer end*/
