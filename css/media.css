@@ -3,15 +3,134 @@
 @media (max-width: 575.98px) {
 
 /*header start*/
+header {
+    padding: 15px 0 20px;
+}
 .logo {
     width: 80%;
 }
-
 .menu ul li a {
-    padding: 5px 0;
-    margin: 0;
+    margin: 0 6px;
 }
 /*header end*/
+
+/*banner start*/
+.banner_item {
+    margin: 40px 0;
+    padding: 10px 0;
+}
+.banner_item h6 {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.banner_item h1 {
+    font-size: 24px;
+    padding: 8px 0 12px 10px;
+}
+.banner_item p {
+    font-size: 10px;
+    padding-left: 10px;
+}
+.a_btn {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 400;
+    padding: 6px 15px;
+}
+/*banner end*/
+
+/*hero start*/
+.hero {
+    padding: 25px 0;
+}
+.hero_single {
+    padding: 10px;
+}
+/*hero end*/
+/*ins start*/
+.ins {
+    padding: 40px 0 15px;
+}
+.c_title h1 {
+    font-size: 24px;
+}
+.c_title p {
+    font-size: 12px;
+    padding: 10px 0 35px;
+}
+.ins_img {
+    padding-bottom: 25px;
+}
+/*ins end*/
+
+/*beauty start*/
+.beauty {
+    padding: 35px 0 40px;
+}
+.beauty_text {
+    padding: 0 0 30px;
+}
+.beauty_text p {
+    padding: 15px 40px 25px 0;
+    line-height: 25px;
+}
+.beauty_btn {
+    margin-left: 0;
+}
+/*beauty end*/
+
+/*browser start*/
+.browser {
+    padding: 50px 0 30px;
+}
+.bro_single h2 {
+    padding: 20px 0;
+}
+/*browser end*/
+
+/*how start*/
+.how {
+    padding: 50px 0 60px;
+}
+.how_single h2 {
+    padding: 15px 0 10px;
+    font-size: 20px;
+}
+.how_single p {
+    padding-bottom: 15px;
+    font-size: 12px;
+    line-height: 25px;
+}
+/*how end*/
+
+/*join start*/
+.join {
+    padding: 50px 0;
+}
+.join_text p {
+    padding: 10px 20px 25px;
+}
+#mail_name {
+    padding: 8px 12px;
+}
+.join_btn {
+    padding: 8px 8px;
+}
+/*join end*/
+/*footer start*/
+footer {
+    padding: 30px 0 25px;
+}
+.ft_1 p {
+    padding: 10px 0 25px;
+}
+.ft_2 {
+    padding-top: 20px;
+}
+.ft_img {
+    padding-bottom: 20px;
+}
+/*footer end*/
 
 }
 
@@ -22,12 +141,107 @@
 .logo {
     width: 90%;
 }
-
 .menu ul li a {
-    margin: 0;
+    margin: 0 6px;
 }
 /*header end*/
 
+/*banner start*/
+.banner_item {
+    margin: 50px 0;
+}
+.banner_item h6 {
+    font-size: 14px;
+    padding-left: 15px;
+}
+.banner_item h1 {
+    font-size: 42px;
+    padding: 10px 0 20px 15px;
+}
+.banner_item p {
+    font-size: 15px;
+    padding-left: 15px;
+}
+.a_btn {
+    margin-left: 15px;
+}
+/*banner end*/
+
+/*hero start*/
+.hero {
+    padding: 35px 0;
+}
+.hero_single {
+    padding: 15px;
+}
+/*hero end*/
+
+/*ins start*/
+.ins {
+    padding: 50px 0 20px;
+}
+.c_title p {
+    padding: 10px 0 40px;
+}
+.ins_img {
+    padding-bottom: 30px;
+}
+/*ins end*/
+
+/*beauty start*/
+.beauty {
+    padding: 50px 0 60px;
+}
+.beauty_text {
+    padding: 0 0 30px;
+}
+.beauty_text p {
+    padding: 15px 171px 30px 0;
+    line-height: 30px;
+}
+.beauty_btn {
+    margin-left: 0;
+}
+/*beauty end*/
+
+/*browser start*/
+.browser {
+    padding: 50px 0 30px;
+}
+.bro_single h2 {
+    padding: 20px 0;
+}
+/*browser end*/
+/*how starts*/
+.how {
+    padding: 50px 0 50px;
+}
+.how_title p {
+    padding: 10px 0 35px;
+}
+.how_single h2 {
+    padding: 20px 0 15px;
+    font-size: 24px;
+}
+.how_single p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+/*how end*/
+
+/*join start*/
+.join_text p {
+    padding: 20px 90px 40px;
+}
+/*join end*/
+/*footer start*/
+footer {
+    padding: 30px 0 35px;
+.ft_img {
+    padding-bottom: 25px;
+}
+/*footer end*/
 
 }
 
@@ -35,11 +249,94 @@
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
 /*header start*/
+header {
+    padding: 20px 0 30px;
+}
 .menu ul li a {
-    margin: 0;
+    margin: 0 6px;
 }
 /*header end*/
 
+/*banner start*/
+.banner_item {
+    margin: 80px 0;
+}
+.banner_item h1 {
+    font-size: 42px;
+    padding: 20px 0 20px 25px;
+}
+.banner_item p {
+    font-size: 15px;
+    font-weight: 400;
+}
+/*banner end*/
+
+/*hero start*/
+.hero {
+    padding: 35px 0;
+}
+.hero_text h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero_text p {
+    font-size: 12px;
+}
+/*hero end*/
+
+/*ins start*/
+.ins {
+    padding: 50px 0;
+}
+.c_title p {
+    padding: 10px 0 35px;
+}
+/*ins end*/
+
+/*beauty start*/
+.beauty_text {
+    padding: 200px 0 0;
+}
+.beauty_text p {
+    padding: 20px 0 30px;
+    line-height: 30px;
+}
+/*beauty end*/
+
+/*browser start*/
+.browser {
+    padding: 50px 0;
+}
+.bro_single h2 {
+    font-size: 20px;
+}
+/*browser end*/
+/*how starts*/
+.how {
+    padding: 50px 0 100px;
+}
+.how_single h2 {
+    padding: 20px 0 10px;
+    font-size: 19px;
+}
+.how_single p {
+    font-size: 14px;
+}
+/*how end*/
+
+/*join start*/
+.join {
+    padding: 50px 0;
+}
+/*join end*/
+/*footer start*/
+footer {
+    padding: 30px 0 60px;
+}
+.ft_1 p {
+    padding: 30px 0 20px;
+}
+/*footer end*/
 
 }
 
@@ -52,6 +349,17 @@
 }
 /*header end*/
 
+/*ins start*/
+.c_title h1 {
+    font-size: 28px;
+}
+/*ins end*/
+
+/*beauty start*/
+.beauty_text p {
+    padding: 20px 115px 30px 0;
+}
+/*beauty end*/
 
 }
 
