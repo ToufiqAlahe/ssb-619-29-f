@@ -51,7 +51,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding: 50px 0;
+	padding: 25px 0;
 	border-radius: 10px;	
 }
 .banner_item h6{
@@ -65,7 +65,7 @@ header {
 	font-size: 52px;
 	font-weight: 700;
 	color: var(--blue);
-    padding: 16px 140px 16px 25px;
+    padding: 20px 165px 20px 25px;
 }
 .banner_item p{
 	font-size: 18px;
@@ -193,7 +193,7 @@ header {
 .join_text{}
 .join_text h1{}
 .join_text p{
-	padding: 10px 30px 50px;
+	padding: 20px 30px 50px;
 }
 
 .j_form{}
